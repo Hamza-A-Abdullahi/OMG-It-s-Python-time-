@@ -35,7 +35,7 @@ pika= {}
 #dictinary work with keys : values
 
 pika= {
-    'name': 'Derik',
+    'name': 'Derik Dice',
     'pokemon': 'pikachu',
     'age':17,
     'personality': 'grumpy'
@@ -54,3 +54,19 @@ print(pika)
 
 pika ['age'] = 18
 print(pika)
+
+full_name = pika ['name'].split()
+print(full_name)
+first_name = full_name [0]
+pika ['first_name']= first_name
+pika ['last_name']=full_name[1]
+print(pika)
+
+#embeded data
+
+pika= {
+    'name': 'Derik Dice',
+    'pokemon': 'pikachu',
+    'age': 17,
+    'personality': ['grumpy','shocking','lovely']
+}
