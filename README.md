@@ -4,3 +4,5 @@ Lists and dictionary’s- I was able create a list and dictionary then  I operat
 Method used for dictionary e.g. values() The values() method doesn't take any parameters. It returns the values that are stored in the dictionary  and key()
 
  😊  🍍
+ 
+  
